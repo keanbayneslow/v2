@@ -1,0 +1,81 @@
+{
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "body": "",
+    "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
+    "github": "https://github.com/",
+    "deployed": "https://",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "technologies": [],
+    "body": "",
+    "github": "",
+    "deployed": "",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+  {
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "technologies": [],
+    "body": "",
+    "github": "",
+    "deployed": "",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "technologies": [],
+    "body": "",
+    "github": "",
+    "deployed": "",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+
+  {
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "body": "",
+    "technologies": [],
+    "github": "",
+    "deployed": "",
+    "bgcolor": "#e47911",
+    "id": "5"
+  },
+
+  {
+    "title": "",
+    "description": "",
+    "image": "/projectImages/",
+    "image2": "/projectImages/",
+    "image3": "/projectImages/",
+    "technologies": [],
+    "body": "",
+    "github": "",
+    "deployed": "",
+    "bgcolor": "#3e67ff",
+    "id": "6"
+  }
+]
