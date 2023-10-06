@@ -1,8 +1,9 @@
+[
 {
     "title": "",
     "description": "",
-    "image": "/projectImages/",
-    "image2": "/projectImages/",
+    "image": "/projectImages/dnd.png",
+    "image2": "/projectImages/dnd2.jpeg",
     "image3": "/projectImages/",
     "body": "",
     "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
@@ -50,6 +51,7 @@
     "bgcolor": "#f85781",
     "id": "4"
   },
+]
 
   {
     "title": "",
@@ -78,4 +80,3 @@
     "bgcolor": "#3e67ff",
     "id": "6"
   }
-]
