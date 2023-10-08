@@ -5,16 +5,16 @@ import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Loader from "./pages/loader/loader";
 import Header from "./components/Header";
 import Landing from "./pages/landing/Landing";
+import Footer from "./components/Footer";
 
 
 function App() {
-  // Personal details for the user
   const personalDetails = {
     name: "Kean Bayneslow",
     location: "Australia",
     email: "kean.bayneslow@gmail.com",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "I'm a Front End Developer with a passion for creating clean, engaging user experiences and intuitive digital interfaces.",
   };
 
   const location = useLocation();
@@ -72,6 +72,7 @@ function App() {
             <Route path="*" element={<Navigate to="/page-not-found" />} />
           </Routes>
           {/* Footer */}
+          <Footer />
           
         </>
       )}
