@@ -216,3 +216,98 @@ header {
 .toggleIcon:hover {
   color: var(--hl-color);
 }
+
+/* --- FOOTER --- */
+footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing);
+  text-align: center;
+  color: var(--text-color);
+}
+
+footer p span {
+  color: var(--text-color);
+}
+
+footer .footer-link {
+  text-decoration: none;
+  color: var(--hl-color);
+  padding-top: 10px;
+}
+footer .footer-link:hover {
+  color: var(--hl2-color);
+}
+
+footer .socialIcons {
+  padding-top: 10px;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (min-width: 750px) {
+  .links {
+    display: flex;
+    background-color: var(--bg-color);
+    justify-content: flex-end;
+    position: relative;
+    top: auto;
+    width: 0;
+    left: 0;
+    padding: 0 10px;
+  }
+
+  .links a {
+    padding: 0px;
+    margin-left: 3px;
+  }
+
+  .links div:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .dropdown-toggle {
+    display: none;
+  }
+
+  .links a:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .links a:hover:before {
+    width: 100%;
+  }
+
+  .links a.active:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+    width: 100%;
+  }
+
+  .closed {
+    background-color: transparent;
+  }
+
+  .toggleMode {
+    display: inline-block;
+  }
+}
