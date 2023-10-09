@@ -6,6 +6,7 @@ import Loader from "./pages/loader/loader";
 import Header from "./components/Header";
 import Landing from "./pages/landing/Landing";
 import Footer from "./components/Footer";
+import Experience from "../src/components/Experience";
 import Portfolio from "./pages/portfolio/Portfolio";
 import ProjectDetails from "./pages/portfolio/[project]/ProjectDetails";
 import PageNotFound from "./pages/404/PageNotFound";
@@ -63,6 +64,7 @@ function App() {
           {/* Define routes */}
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<Portfolio />} />
 
           

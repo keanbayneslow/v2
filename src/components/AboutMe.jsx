@@ -93,9 +93,11 @@ const AboutMe = ({ name }) => {
               </NavLink>
             </motion.div>
           </div>
+          
         </div>
       </div>
     </section>
+    
   );
 };
 

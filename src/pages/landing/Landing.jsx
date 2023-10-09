@@ -34,6 +34,7 @@ const Landing = ({ name }) => {
 
       {/* Display the about section */}
       <About />
+
     </>
   );
 };
