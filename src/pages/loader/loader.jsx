@@ -67,7 +67,7 @@ const Loader = ({ setShowLoader }) => {
         y1="230"
         x2="360"
         y2="370"
-        stroke="#48a3c6"
+        stroke="#1F51FF"
         custom={3}
         variants={draw}
       />
@@ -76,7 +76,7 @@ const Loader = ({ setShowLoader }) => {
         y1="370"
         x2="360"
         y2="230"
-        stroke="#48a3c6"
+        stroke="#1F51FF"
         custom={3.5}
         variants={draw}
       />
@@ -86,7 +86,7 @@ const Loader = ({ setShowLoader }) => {
         y1="230"
         x2="360"
         y2="370"
-        stroke="yellow"
+        stroke="#FF1493"
         variants={draw}
         custom={4}
       />
@@ -95,7 +95,7 @@ const Loader = ({ setShowLoader }) => {
         y1="370"
         x2="360"
         y2="230"
-        stroke="#yellow"
+        stroke="#FF1493"
         variants={draw}
         custom={4.5}
       />
@@ -105,7 +105,7 @@ const Loader = ({ setShowLoader }) => {
         y1="230"
         x2="360"
         y2="370"
-        stroke="#00CE44"
+        stroke="#BC13FE"
         variants={draw}
         custom={5}
       />
@@ -114,7 +114,7 @@ const Loader = ({ setShowLoader }) => {
         y1="370"
         x2="360"
         y2="230"
-        stroke="#00CE44"
+        stroke="#BC13FE"
         variants={draw}
         custom={5.5}
       />
