@@ -1,21 +1,21 @@
 [
 {
-    "title": "",
-    "description": "",
+    "title": "D&D Character Generator",
+    "description": "Random Character Generator - Dungeons & Dragons 5e",
     "image": "/projectImages/dnd.png",
     "image2": "/projectImages/dnd2.jpeg",
     "image3": "/projectImages/",
-    "body": "",
+    "body": "This project was created as part of the AcademyXi Phase-1 JavaScript module. It is built using HTML, CSS, JavaScript, and JSON. It uses the open Dungeons and Dragons 5e API and provides the user with the ability to generate random attributes for their character and to search the D&D database for information. It was designed to test my ability to fetch data from an API and manipulate it, this project is a passion piece with future development in store. ",
     "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
-    "github": "https://github.com/",
-    "deployed": "https://",
+    "github": "https://github.com/keanbayneslow/dnd-5e-api-project",
+    "deployed": "https://keanbayneslow.github.io/dnd-5e-api-project/",
     "bgcolor": "var(--hl2-color)",
     "id": "1"
   },
   {
-    "title": "",
+    "title": "To be added",
     "description": "",
-    "image": "/projectImages/",
+    "image": "/projectImages/ComingSoon.png",
     "image2": "/projectImages/",
     "image3": "/projectImages/",
     "technologies": [],
@@ -26,9 +26,9 @@
     "id": "2"
   },
   {
-    "title": "",
+    "title": "To be added",
     "description": "",
-    "image": "/projectImages/",
+    "image": "/projectImages/ComingSoon.png",
     "image2": "/projectImages/",
     "image3": "/projectImages/",
     "technologies": [],
@@ -39,9 +39,9 @@
     "id": "3"
   },
   {
-    "title": "",
+    "title": "To be added",
     "description": "",
-    "image": "/projectImages/",
+    "image": "/projectImages/ComingSoon.png",
     "image2": "/projectImages/",
     "image3": "/projectImages/",
     "technologies": [],
@@ -53,9 +53,9 @@
   },
 
   {
-    "title": "",
+    "title": "To be added",
     "description": "",
-    "image": "/projectImages/",
+    "image": "/projectImages/ComingSoon.png",
     "image2": "/projectImages/",
     "image3": "/projectImages/",
     "body": "",
@@ -67,9 +67,9 @@
   },
 
   {
-    "title": "",
+    "title": "To be added",
     "description": "",
-    "image": "/projectImages/",
+    "image": "/projectImages/ComingSoon.png",
     "image2": "/projectImages/",
     "image3": "/projectImages/",
     "technologies": [],
