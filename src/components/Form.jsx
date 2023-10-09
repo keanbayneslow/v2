@@ -6,19 +6,7 @@ import Button from "./Button";
 
 /**
  * Contact Form Component
- * ----------------------
- * This component represents a fully functional contact form.
- *
  * @component
- *
- * Form Submission API Key:
- * ------------------------
- * To enable form submissions, obtain your API Key from https://web3forms.com/
- *
- * Follow these steps:
- * 1. Create a .env file in the root directory.
- * 2. Copy and paste the following line into your .env file, replacing with your API key:
- *    REACT_APP_ACCESS_KEY="Your API Key"
  *
  */
 
