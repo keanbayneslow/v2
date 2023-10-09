@@ -97,13 +97,15 @@ const Experience = ({ name }) => {
       ))}
       
       <a
-  src="src/pages/resume/Kean Bayneslow - Resume.pdf"
+  href="/projectImages/Kean Bayneslow - Resume.pdf"
   download="Kean Bayneslow - Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
 >
   <Button name="Download Resume" />
 </a>
+
+
     </motion.div>
   </motion.div>
           </motion.div>
