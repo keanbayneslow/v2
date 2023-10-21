@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { NavLink } from "react-router-dom";
 import Button from "./Button";
 
 const Experience = ({ name }) => {
