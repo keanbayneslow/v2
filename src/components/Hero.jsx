@@ -12,14 +12,6 @@ import SocialIcons from "./SocialIcons";
 const Hero = ({ name }) => {
   // Styles for various elements
   const styles = {
-    landingImage: {
-      position: "absolute",
-      bottom: "0",
-      opacity: "0.3",
-      mixBlendMode: "lighten",
-      height: "80%",
-    },
-
     textContainer: {
       display: "flex",
       flexDirection: "column",
