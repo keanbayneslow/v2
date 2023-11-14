@@ -1,17 +1,4 @@
 [
-{
-    "title": "D&D Character Generator",
-    "description": "Random Character Generator - Dungeons & Dragons 5e",
-    "image": "/projectImages/dnd.png",
-    "image2": "/projectImages/dnd2.jpeg",
-    "image3": "/projectImages/",
-    "body": "This project was created as part of the AcademyXi Phase-1 JavaScript module. It is built using HTML, CSS, JavaScript, and JSON. It uses the open Dungeons and Dragons 5e API and provides the user with the ability to generate random attributes for their character and to search the D&D database for information. It was designed to test my ability to fetch data from an API and manipulate it, this project is a passion piece with future development in store. ",
-    "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
-    "github": "https://github.com/keanbayneslow/dnd-5e-api-project",
-    "deployed": "https://keanbayneslow.github.io/dnd-5e-api-project/",
-    "bgcolor": "var(--hl2-color)",
-    "id": "1"
-  },
   {
     "title": "Pub Crawl Builder",
     "description": "A database of worldwide breweries allowing the user to add their own hidden gems and build their dream pub crawl.",
@@ -23,6 +10,19 @@
     "github": "https://github.com/keanbayneslow/pub-crawl-app",
     "deployed": "https://pub-crawl-app.netlify.app/",
     "bgcolor": "var(--hl-color)",
+    "id": "1"
+  },
+  {
+    "title": "D&D Character Generator",
+    "description": "Random Character Generator - Dungeons & Dragons 5e",
+    "image": "/projectImages/dnd.png",
+    "image2": "/projectImages/dnd2.jpeg",
+    "image3": "/projectImages/",
+    "body": "This project was created as part of the AcademyXi Phase-1 JavaScript module. It is built using HTML, CSS, JavaScript, and JSON. It uses the open Dungeons and Dragons 5e API and provides the user with the ability to generate random attributes for their character and to search the D&D database for information. It was designed to test my ability to fetch data from an API and manipulate it, this project is a passion piece with future development in store. ",
+    "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
+    "github": "https://github.com/keanbayneslow/dnd-5e-api-project",
+    "deployed": "https://keanbayneslow.github.io/dnd-5e-api-project/",
+    "bgcolor": "var(--hl2-color)",
     "id": "2"
   },
   {
