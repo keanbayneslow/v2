@@ -21,7 +21,7 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/keanbayneslow">
+      <a className="icon" style={styles.icon} href="https://github.com/keanbayneslow"  target="_blank" rel="noopener noreferrer">
         {/* GitHub Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
@@ -32,7 +32,7 @@ const SocialIcons = () => {
           title="Kean Bayneslow's GitHub Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/kean-bayneslow/">
+      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/kean-bayneslow/"  target="_blank" rel="noopener noreferrer">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
@@ -43,7 +43,7 @@ const SocialIcons = () => {
           title="Kean Bayneslow's LinkedIn Profile"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="mailto:mkean.bayneslow@gmail.com">
+      <a className="icon" style={styles.icon} href="mailto:mkean.bayneslow@gmail.com"  target="_blank" rel="noopener noreferrer">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
@@ -54,7 +54,7 @@ const SocialIcons = () => {
           title="Kean Bayneslow's Email"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://codepen.io/keanbayneslow">
+      <a className="icon" style={styles.icon} href="https://codepen.io/keanbayneslow"  target="_blank" rel="noopener noreferrer">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
@@ -65,7 +65,7 @@ const SocialIcons = () => {
           title="Kean Bayneslow's Codepen"
         ></motion.i>
       </a>
-      <a className="icon" style={styles.icon} href="https://medium.com/@kean.bayneslow">
+      <a className="icon" style={styles.icon} href="https://medium.com/@kean.bayneslow"  target="_blank" rel="noopener noreferrer">
         {/* LinkedIn Icon */}
         <motion.i
           initial={{ y1: 100, opacity: 0 }}
