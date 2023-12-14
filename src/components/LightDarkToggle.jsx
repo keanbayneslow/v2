@@ -35,7 +35,7 @@ const LightDarkToggle = () => {
     const colors = !islightMode
       ? {
           // Dark Colors
-          "--bg-color": "#000000",
+          "--bg-color": "#131a22",
           "--bg2-color": "#191825",
           "--hl-color": "#03DAC5",
           "--hl2-color": "#ab20fd",
@@ -62,7 +62,11 @@ const LightDarkToggle = () => {
 
   return (
     <button className="toggleMode" onClick={toggleMode}>
-      {islightMode ? <MdDarkMode className="toggleIcon" /> : <CiLight className="toggleIcon" />}
+      {islightMode ? (
+        <MdDarkMode className="toggleIcon" />
+      ) : (
+        <CiLight className="toggleIcon" />
+      )}
     </button>
   );
 };
