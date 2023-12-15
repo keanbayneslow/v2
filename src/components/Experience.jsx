@@ -35,7 +35,7 @@ const Experience = ({ name }) => {
       <div className="aboutContainer container">
         <div className="row">
           {/* Experience Section */}
-          <motion.div className="col-12 col-lg-6" ref={ref} {...animationProps}>
+          <motion.div className="col-12" ref={ref} {...animationProps}>
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Experience content */}
               <motion.h4 variants={paragraphVariants}>Experience</motion.h4>
@@ -56,7 +56,7 @@ const Experience = ({ name }) => {
           </motion.div>
 
           {/* Skills Section */}
-          <motion.div className="col-12 col-lg-6" ref={ref} {...animationProps}>
+          <motion.div className="col-12" ref={ref} {...animationProps}>
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Skills content */}
               <motion.h4 variants={paragraphVariants}>Skills</motion.h4>
