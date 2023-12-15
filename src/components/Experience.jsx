@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import Button from "./Button";
 
 const Experience = ({ name }) => {
+  const isSmallScreen = window.innerWidth <= 768;
   const [ref, inView] = useInView({
     threshold: 0,
     triggerOnce: true,
@@ -23,15 +24,18 @@ const Experience = ({ name }) => {
     animate: { y: 0, opacity: 1 },
   };
 
+  const smallScreenInView = isSmallScreen || inView;
+
   return (
     <section className="about">
       <div className="aboutContainer container">
         <div className="row">
+          {/* Experience Section */}
           <motion.div
-            className="col-12 col-lg-6"
+            className="col-12"
             ref={ref}
             initial={{ x: "-10vw", opacity: 0, scale: 0.5 }}
-            animate={inView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
+            animate={smallScreenInView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
             whileHover={{ scale: 1.05 }}
           >
@@ -42,7 +46,7 @@ const Experience = ({ name }) => {
                 className="contentDescription"
                 variants={staggerVariants}
                 initial="initial"
-                animate={inView ? "animate" : "initial"}
+                animate={smallScreenInView ? "animate" : "initial"}
               >
                 {experienceData.map((item, index) => (
                   <motion.p key={index} variants={paragraphVariants}>
@@ -52,9 +56,8 @@ const Experience = ({ name }) => {
                     {item.company} | {item.location} | {item.date}
                     <br />
                     {item.description}
-                    <br /> 
+                    <br />
                   </motion.p>
-                
                 ))}
               </motion.div>
             </motion.div>
@@ -62,51 +65,46 @@ const Experience = ({ name }) => {
 
           {/* Skills Section */}
           <motion.div
-  className="col-12 col-lg-6"
-  ref={ref}
-  initial={{ x: "-10vw", opacity: 0, scale: 0.5 }}
-  animate={inView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
-  transition={{ duration: 0.4, ease: "easeInOut" }}
-  whileHover={{ scale: 1.05 }}
->
-  <motion.div className="contentContainer" variants={staggerVariants}>
-    {/* Skills content */}
-    <motion.h4 variants={paragraphVariants}>Skills</motion.h4>
-    <motion.div
-      className="contentDescription"
-      variants={staggerVariants}
-      initial="initial"
-      animate={inView ? "animate" : "initial"}
-    >
-      {skillsData.map((category, index) => (
-        <div key={index}>
-            <br />
-          <strong>{category.title}</strong>:{" "}
-          <br />
-          {category.skills.map((skill, skillIndex) => (
-            <span key={skillIndex}>
-              {skillIndex !== category.skills.length - 1
-                ? `${skill} | `
-                : skill}
-            </span>
-            
-          ))}
-          
-        </div>
-      ))}
-      
-      <a
-  href="/projectImages/Kean Bayneslow - Resume.pdf"
-  download="Kean Bayneslow - Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button name="Download Resume" />
-</a>
-
-
-    </motion.div>
-  </motion.div>
+            className="col-12"
+            ref={ref}
+            initial={{ x: "-10vw", opacity: 0, scale: 0.5 }}
+            animate={smallScreenInView ? { x: 0, opacity: 1, scale: 1 } : { x: "-10vw", opacity: 0, scale: 0.5 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            whileHover={{ scale: 1.05 }}
+          >
+            <motion.div className="contentContainer" variants={staggerVariants}>
+              {/* Skills content */}
+              <motion.h4 variants={paragraphVariants}>Skills</motion.h4>
+              <motion.div
+                className="contentDescription"
+                variants={staggerVariants}
+                initial="initial"
+                animate={smallScreenInView ? "animate" : "initial"}
+              >
+                {skillsData.map((category, index) => (
+                  <div key={index}>
+                    <br />
+                    <strong>{category.title}</strong>: <br />
+                    {category.skills.map((skill, skillIndex) => (
+                      <span key={skillIndex}>
+                        {skillIndex !== category.skills.length - 1
+                          ? `${skill} | `
+                          : skill}
+                      </span>
+                    ))}
+                    <br />
+                  </div>
+                ))}
+                <a
+                  href="/projectImages/Kean Bayneslow - Resume.pdf"
+                  download="Kean Bayneslow - Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button name="Download Resume" />
+                </a>
+              </motion.div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
