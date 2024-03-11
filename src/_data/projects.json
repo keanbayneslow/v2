@@ -6,7 +6,7 @@
     "image2": "/projectImages/Note-Taking2.jpg",
     "image3": "/projectImages/",
     "technologies": ["React", "Vite", "TypeScript", "Bootstrap"],
-    "body": "This project was created as part of a larger ongoing project fucussed on creating, organising and searching user made inputs. Using Typsescript, the user can create markdown for any topic they choose and then apply as many appropriate tags as they wish. All tags and markdown can be edited, deleted or searched.",
+    "body": "This project was created as part of a larger ongoing project focussed on creating, organising and searching user made inputs. Using TypeScript, the user can create markdown for any topic they choose and then apply as many appropriate tags as they wish. All tags and markdown can be edited, deleted or searched.",
     "github": "https://github.com/keanbayneslow/note-taking",
     "deployed": "https://keanbayneslow.github.io/note-taking/",
     "bgcolor": "var(--hl-color)",
