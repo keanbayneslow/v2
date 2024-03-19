@@ -52,15 +52,15 @@
     "id": "4"
   },
   {
-    "title": "To be added",
-    "description": "",
-    "image": "/projectImages/ComingSoon.png",
-    "image2": "/projectImages/",
+    "title": "QR Code Generator",
+    "description": "This is a simple web application that allows users to generate QR codes from text or URLs.",
+    "image": "/projectImages/QR-code 1.png",
+    "image2": "/projectImages/QR-code 2.jpg",
     "image3": "/projectImages/",
-    "technologies": [],
-    "body": "",
-    "github": "",
-    "deployed": "",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "body": "Built as an early API project, this small web app utilises basic HTML, CSS and JavaScript to take a user input, call an API and return a QR code for the input value. It is quick, clean and functional. The project gave me an introduction to using API's in my work.",
+    "github": "https://github.com/keanbayneslow/QR-code-generator",
+    "deployed": "https://keanbayneslow.github.io/QR-code-generator/",
     "bgcolor": "#11e479",
     "id": "5"
   },
