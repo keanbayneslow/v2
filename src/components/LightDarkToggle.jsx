@@ -47,11 +47,11 @@ const LightDarkToggle = () => {
           // Light Colors
           "--bg-color": "#DDE8B7",
           "--bg2-color": "#CEDD94",
-          "--hl-color": "#0EAB64",
-          "--hl2-color": "#1A2821",
+          "--hl-color": "#11d47d",
+          "--hl2-color": "#75882b",
           "--text-color": "#FF9F1C",
           "--secondary-text-color": "#1A2821",
-          "--grey": "#1A2821",
+          "--grey": "#75882b",
         };
 
     for (const property in colors) {
