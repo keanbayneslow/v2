@@ -66,15 +66,15 @@
   },
 
   {
-    "title": "To be added",
-    "description": "",
-    "image": "/projectImages/ComingSoon.png",
-    "image2": "/projectImages/",
+    "title": "Slot Machine App",
+    "description": "A simple game app allowing users to bet on an outcome",
+    "image": "/projectImages/slot-machine 1.png",
+    "image2": "/projectImages/slot-machine 2.jpg",
     "image3": "/projectImages/",
-    "body": "",
-    "technologies": [],
-    "github": "",
-    "deployed": "",
+    "body": "DISCLAIMER: I do not condone gambling, if you or anyone you know is struggling with a gambling addiction, please visit https://www.gamblinghelponline.org.au/ for confidential and free support services.This project was built to help me learn and practice utilisation of arrays and loops in JavaScript, it randomises an array three times and then depending on the user input calculates if they win and by how much.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/keanbayneslow/slot-machine-app",
+    "deployed": "https://keanbayneslow.github.io/slot-machine-app/",
     "bgcolor": "#3e67ff",
     "id": "6"
   },
