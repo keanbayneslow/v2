@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
-import { AiOutlineStar } from "react-icons/ai";
-import { BiGitRepoForked } from "react-icons/bi";
+
 
 import SocialIcons from "./SocialIcons";
 
@@ -24,7 +22,7 @@ const Footer = () => {
       <a className="footer-link" href="https://github.com/keanbayneslow/v2">
       
         <p>
-          <span></span>Built by Kean Bayneslow &copy; {currentYear}
+          <span>Built by Kean Bayneslow &copy; {currentYear}</span>
         </p>
       </a>
 
